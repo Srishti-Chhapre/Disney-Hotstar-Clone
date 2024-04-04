@@ -1,0 +1,566 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin: 0%;
+}
+
+body {
+    height: 100%;
+    background-color: #030b17;
+}
+
+.navbar {
+    background-color: #0F1014;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.navbarimage {
+    background-color: #16181F;
+    margin: 16px 0px 16px 106px;
+    width: 90%;
+    height: 252px;
+    background-image:url(image/navbarimage.jpg);
+    background-size: 592px, 252px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.items-inside-navbarimagediv {
+    background-color: #16181F;
+    height: 100%;
+    width: 40%;
+    margin-left: 53.5%;
+    padding-top: 1%;
+}
+
+.D_Hotstar_logo {
+    background-image: url(image/D_Hotstar_logo.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10%;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.written-disney-inside-navbar {
+    height: 50%;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 130%;
+    margin-bottom: 3px;
+}
+
+.Endless-Entertainment {
+    height: 10px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #8F98B2;
+    margin-left: 130%;
+}
+
+.Watch-the-best-paragraph {
+    height: 20px;
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #E1E6F0;
+    font-weight: lighter;
+    margin: 10% 0% 0% 10%;
+}
+
+.Subscribe-button-inside-navbar {
+    height: 40px;
+    width: 142px;
+    color: #E1E6F0;
+    background-color: #252833;
+    border: none;
+    font-family: sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 70px 0px 0px 37px;
+}
+
+.menu {
+    position: fixed;
+    height: 100%;
+    width: 106px;
+    top: 0;
+    z-index: 99;
+}
+
+.Disneynewlogo {
+    display: flex;
+    justify-content: center;
+    background-image: url(image/disney-plus-hotstar-subscriber-base-transformed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    height: 62.4px;
+    width: 100px;
+}
+
+#Subscribe {
+    background-color: #FFCC751A;
+    color: rgb(197, 142, 2);
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    height: 18px;
+    width: 80px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 12px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    height: 70vh;
+    cursor: pointer;
+}
+
+.home {
+    fill: white;
+}
+
+.ball {
+    background-image: url(image/cricket-ball.png);
+    height: 19px;
+    width: 19px;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#Radha {
+
+    width: 100%;
+    height: 600px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-image: url(image/Radhakrishna.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Radha::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+    z-index: 1;
+}
+
+.video-img-container {
+    position: sticky;
+    top: 0;
+}
+
+.main-content {
+    position: relative;
+}
+
+.Video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    top: 0px;
+    z-index: 1;
+}
+
+#Myvideo {
+    display: none;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(45deg, black);
+}
+
+#Myvideo::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+    z-index: 1;
+}
+
+#main-content {
+    position: relative;
+}
+
+.Allcontent {
+    width: 100%;
+    max-height: 75%;
+    z-index: 3;
+    padding-left: 8.4%;
+    position: absolute;
+    top: -377px;
+}
+
+.Krishn {
+    height: 94px;
+    width: 290px;
+    background-image: url(image/krishn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.below-hindi-written-radhakrishna {
+    width: 30%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.span-2023 {
+    display: flex;
+    height: 20px;
+    width: 35.86px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    list-style: circle;
+    z-index: 3;
+}
+
+.seperation-dot1 {
+
+    color: #FFFFFFD6;
+    z-index: 3;
+}
+
+.span-hindi {
+    display: flex;
+    height: 20px;
+    width: 30.08px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.seperation-dot2 {
+
+    z-index: 3;
+}
+
+.UAdiv {
+    height: 20px;
+    width: 80px;
+    color: white;
+    background-color: #FFFFFF33;
+    font-family: sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 15px;
+    z-index: 3;
+}
+
+/*this is the description of serial*/
+.description {
+    display: flex;
+    color: #FFFFFFD6;
+    height: 100px;
+    width: 400px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    z-index: 3;
+}
+
+.genre-div {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    width: 30%;
+    height: 30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+.button-div {
+    width: 50%;
+}
+
+.watchnow {
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    font-family: sans-serif;
+    background-color: #f4e8e89b;
+    color: rgb(47, 45, 45);
+    width: 316px;
+    height: 48px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 3;
+}
+
+.watchnowneighbour {
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: sans-serif;
+    background-color: #f4e8e89b;
+    color: rgb(47, 45, 45);
+    ;
+    height: 48px;
+    width: 48px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 3;
+}
+
+.watchnow,
+.watchnowneighbour {
+    display: inline-block;
+}
+
+#Progam-details {
+    background-color: #030b17;
+
+}
+
+.showDetails {
+    max-height: 5%;
+    width: 91.6%;
+    padding-top: 10%;
+    margin-left: 8.4%;
+
+}
+
+.continueWatchHeading {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #E1E6F0;
+    font-weight: bold;
+}
+
+.ishqbaaz {
+    height: 247px;
+    width: 91.6%;
+    cursor: pointer;
+}
+
+.ishqbaazImage {
+    background-image: url(image/Ishqbaaz.jpeg);
+    height: 78%;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.ishqbaazSpan1 {
+    color: #E1E6F0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: light;
+    display: flex;
+    align-items: center;
+
+}
+
+.ishqbaazSpan2 {
+    min-width: 40px;
+    color: #8F98B2;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+
+.latestReleases,
+.PopularShows,
+.WatchWithYourFamily {
+    margin-top: 5%;
+}
+
+#latestReleasesHeading {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #E1E6F0;
+    font-weight: bold;
+}
+
+.Allimages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 42vh;
+}
+
+.SameclassforImg {
+    height: 235px;
+    max-width: 14vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#PopularShowsHeading {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #E1E6F0;
+    font-weight: bold;
+}
+
+#WatchWithYourFamilyHeading {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #E1E6F0;
+    font-weight: bold;
+}
+
+.video-card-container {
+
+    width: 90%;
+    height: 10vw;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.4%;
+}
+
+.video-card {
+
+    min-width: 14vw;
+    width: 14vw;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #030b17;
+}
+
+.video-card-image,
+.card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.video-card:hover .video-card-image {
+    display: none;
+}
+
+.footer-div {
+    background-color: #030b17;
+    height: 100%;
+    width: 100%;
+    padding-left: 8.4%;
+    padding-top: 10%;
+}
+
+.Disney-footer {
+    position: relative;
+    z-index: 11;
+}
+
+.footer-content h4 {
+    color: #E1E6F0;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.footer-content ul {
+    color: #8F98B2;
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style: none;
+    margin-top: 10%;
+    padding: 0px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.Company,
+.View-Website-in,
+.Need-Help,
+.Connect-with-Us {
+    height: 116px;
+    width: 277.42px;
+
+}
+
+.Connect-with-Us ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.Company-ul,
+.View-Website-in-ul,
+.Need-Help-ul {
+    padding-bottom: 4%;
+
+}
+
+.View-Website-in ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+
+}
+
+.Copyright {
+    color: #707A94;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 0.5%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Copyright-icon-para-ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Copyright-icon-para {
+    display: flex;
+    flex-direction:row;
+    gap:0.5%;
+
+}
+
+.Copyright ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
